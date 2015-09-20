@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.telko.appspelanggan"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="10" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppBaseTheme" >
+        <activity
+            android:name="com.telko.appspelanggan.LoginActivity"
+            android:label="@string/app_name" >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:label="Main menu" 
+            android:name="com.telko.appspelanggan.MainActivity"></activity>
+          
+            <activity
+            android:label="Jenis Keluhan" 
+            android:name="com.telko.appspelanggan.JenisKeluhanActivity"></activity>
+            
+            <activity
+            android:label="Jenis Keluhan" 
+            android:name="com.telko.appspelanggan.PostKeluhanActivity"></activity>
+            
+           <activity
+            android:label="Jenis Keluhan" 
+            android:name="com.telko.appspelanggan.HistoryKeluhanActivity"></activity>
+             
+           <activity
+            android:label="Jenis Keluhan" 
+            android:name="com.telko.appspelanggan.LaporanActivity"></activity>
+             
+           <activity
+            android:label="Jenis Keluhan" 
+            android:name="com.telko.appspelanggan.KeluhanActivity"></activity>
+              
+           <activity
+            android:label="Jenis Keluhan" 
+            android:name="com.telko.appspelanggan.PostSolusiActivity"></activity>
+        
+        
+        
+    </application>
+    
+
+</manifest>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/home_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!--  Header  Starts-->
+  		<LinearLayout android:id="@+id/header"
+  				android:layout_width="fill_parent"
+  				android:layout_height="wrap_content"
+  				android:background="@layout/header_gradient_red" 
+  				android:paddingTop="5dip"
+  				android:paddingBottom="5dip">
+  				<!-- Logo Start-->
+  				<ImageView android:src="@drawable/laporan_keluhan"
+  							android:layout_width="wrap_content"
+  							android:layout_height="wrap_content"
+  							android:layout_marginLeft="10dip"
+  							android:contentDescription="@string/content_desc"/>
+  				<!-- Logo Ends -->
+  		</LinearLayout>
+  		<!--  Header Ends -->  
+
+  
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_margin="10dp"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+        
+
+		<include layout="@layout/header_table" />
+        <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+       
+    </LinearLayout>
+    
+  <!--  Include Footer -->
+
+</LinearLayout>
+
+

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="*">
+
+       <TableRow
+            android:id="@+id/headerTable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cellborder" >
+            
+            <TextView
+                android:id="@+id/textViewNo"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:text="@string/no" 
+                android:background="@drawable/cell_shape"/>
+        
+           <TextView
+                android:id="@+id/textViewPelanggan"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:text="@string/pelanggan" 
+                android:background="@drawable/cell_shape"/>
+           
+           <TextView
+                android:id="@+id/textLayanan"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:text="@string/layanan" 
+                android:background="@drawable/cell_shape"/>
+        
+           <TextView
+                android:id="@+id/textStatus"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="#000"
+                android:text="@string/status" 
+                android:background="@drawable/cell_shape"/>
+           
+        </TableRow>   
+    </TableLayout>
